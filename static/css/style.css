@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.quadrante {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+}
+
+.vermelho {
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+
+.branco1 {
+  background-color: white;
+  top: 0;
+  right: 0;
+}
+
+.branco2 {
+  background-color: white;
+  bottom: 0;
+  left: 0;
+}
+
+.azul {
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
